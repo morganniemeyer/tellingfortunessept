@@ -48,3 +48,14 @@ img {
 .before-click img {
     margin: 10px;
 }
+.before-click {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.post-click {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+}
