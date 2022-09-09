@@ -12,6 +12,7 @@
             href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap"
         />
         <link rel="stylesheet" href="/styles/reset.css" />
+
         <link rel="stylesheet" href="/styles/global.css" />
         <title>Web App</title>
     </head>
@@ -23,19 +24,23 @@
         </header>
 
         <main>
-            <section class="before-click">
+            <div id="before">
                 <h1>What do you face?</h1>
                 <input type="text" id="qtext" /><br /><br />
 
                 <button id="submit">I ask for Comedy</button><br />
-                <img src="./magic8ballpre.jpg" alt="A magic 8 ball showing the 8" />
-            </section>
+                <div>
+                    <img src="./magic8ballpre.jpg" alt="A magic 8 ball showing the 8" />
+                </div>
+            </div>
 
-            <section class="after-click" /*class="hide"*/>
-                <img src="./8-Ballpost.png" alt="a magic 8 ball showing the response" />
-                <p id="results"></p><br><br>
-                <button id="again"> I want to ask again</button>
-            </section>
+            <div id="after" class="hide">
+                <div>
+                    <img src="./8-Ballpost.png" alt="a magic 8 ball showing the response" />
+                </div>
+                <p id="results"></p>
+                <button id="again">I want to ask again</button>
+            </div>
         </main>
 
         <footer>&copy;2022 Software Developer</footer>

@@ -28,7 +28,7 @@ Additional considerations:
 
 ## pre-click html
 
-Biiiig container holding all:
+Big container holding all:
 
 h1: what seems to ail you
 text input area

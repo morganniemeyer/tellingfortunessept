@@ -45,17 +45,17 @@ img {
     align-items: center;
     border-radius: 70%;
 }
-.before-click img {
+#before img {
     margin: 10px;
 }
-.before-click {
-    display: grid;
-    grid-template-rows: auto;
+#before {
     justify-items: center;
 }
 
-.post-click {
-    display: grid;
-    grid-template-rows: auto;
+#after {
     justify-items: center;
+}
+
+.hide {
+    display: none;
 }
