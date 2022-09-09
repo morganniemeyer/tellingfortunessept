@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
-    background: var(--background);
+    background: #27227c;
     display: grid;
     grid-template-rows: AUTO 1fr auto;
     width: 100%;
@@ -19,6 +19,9 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--header-background);
+}
+h1 {
+    color: #dedede;
 }
 
 main {
@@ -66,4 +69,7 @@ img {
     margin: 0 auto;
     justify-items: center;
     align-items: center;
+}
+p {
+    color: #dedede;
 }
