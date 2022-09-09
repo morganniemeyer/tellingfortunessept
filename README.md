@@ -44,3 +44,6 @@ mathrandom for selection of answer
 
 p for answer
 button input for asking again
+
+![pre click wireframe](preclickframe.png)
+![postclick wireframe](postclickframe.png)
