@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap"
+        />
+        <link rel="stylesheet" href="/styles/reset.css" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap">
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <title>Web App</title>
-</head>
+        <link rel="stylesheet" href="/styles/global.css" />
+        <title>Web App</title>
+    </head>
 
-<body>
-    <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
-    </header>
+    <body>
+        <header>
+            <img src="/assets/html_css_js.png" />
+            <h1>Web App</h1>
+        </header>
 
-    <main>
+        <main>
+            <div id="before">
+                <div class="space">
+                <h1>What do you face?</h1>
+                <input type="text" id="qtext" /><br /><br />
 
-    </main>
+                <button id="submit">I ask for Comedy</button><br />
+                <div>
+                    <img src="./magic8ballpre.jpg" alt="A magic 8 ball showing the 8"/>
+                </div></div></div>
+            </div>
 
-    <footer>&copy;2022 Software Developer</footer>
+            <div id="after" class="hide">
+                <div class="space">
+                <div>
+                    <img src="./8-Ballpost.png" alt="a magic 8 ball showing the response" class="reveal" />
+                </div>
+                <p id="results"></p>
+                <button id="again">I want to ask again</button>
+            </div></div>
+        </main>
 
-    <script type="module" src="app.js"></script>
-</body>
+        <footer>&copy;2022 Software Developer</footer>
 
+        <script type="module" src="app.js"></script>
+    </body>
 </html>

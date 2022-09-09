@@ -25,3 +25,25 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## pre-click html
+
+Big container holding all:
+
+h1: what seems to ail you
+text input area
+button input: I ask for comedy
+img of magic 8 ball
+
+## js
+
+eventlisteners for toggle buttons
+mathrandom for selection of answer
+
+## postclick html
+
+p for answer
+button input for asking again
+
+![pre click wireframe](preclickframe.png)
+![postclick wireframe](postclickframe.png)
