@@ -38,3 +38,9 @@ img of magic 8 ball
 ## js
 
 eventlisteners for toggle buttons
+mathrandom for selection of answer
+
+## postclick html
+
+p for answer
+button input for asking again
