@@ -26,6 +26,8 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
+    justify-items: center;
+    align-items: center;
 }
 
 footer {
@@ -42,4 +44,7 @@ img {
     display: flex;
     align-items: center;
     border-radius: 70%;
+}
+.before-click img {
+    margin: 10px;
 }
