@@ -59,3 +59,11 @@ img {
 .hide {
     display: none;
 }
+
+.space {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+}
