@@ -32,8 +32,8 @@ Biiiig container holding all:
 
 h1: what seems to ail you
 text input area
-button input: I ask the arcana
-img of tarot deck
+button input: I ask for comedy
+img of magic 8 ball
 
 ## js
 
